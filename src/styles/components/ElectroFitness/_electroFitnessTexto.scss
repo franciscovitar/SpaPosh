@@ -1,0 +1,92 @@
+.electro-fitness-texto {
+
+    .grilla {
+        display: flex;
+
+        @media(max-width: 1200px) {
+            flex-direction: column;
+        }
+
+        .grilla-container {
+            width: 50%;
+
+            @media(max-width: 1200px) {
+                width: 100%;
+            }
+
+            .texto {
+                width: 100%;
+                height: 1100px;
+                background-color: rgb(244, 244, 244);
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex-basis: 50%;
+
+                @media(max-width: 1100px) {
+                    padding: 25px 10px;
+                }
+
+                label {
+                    color: rgb(174, 174, 174);
+                    font-size: 12px;
+                }
+
+                h3 {
+                    color: $Orange;
+
+                    @media(max-width: 500px) {
+                        font-size: 15px;
+                    }
+                }
+
+                p {
+                    @media(max-width: 500px) {
+                        font-size: 12px;
+                    }
+                }
+
+                h4 {
+                    color: rgb(71, 171, 104);
+
+                    @media(max-width: 500px) {
+                        font-size: 15px;
+                    }
+                }
+
+                ul {
+                    li {
+                        position: relative;
+                        list-style: none;
+
+                        @media(max-width: 500px) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+
+            .imagen {
+                width: 100%;
+                height: 1100px;
+                overflow: hidden;
+
+                @media(max-width: 800px) {
+                    height: 50%;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+
+            }
+        }
+
+
+    }
+
+}

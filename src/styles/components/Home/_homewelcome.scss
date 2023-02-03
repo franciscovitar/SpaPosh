@@ -1,0 +1,57 @@
+.HomeWelcome-container {
+    background-image: url("../../../image/pexels-andrea-piacquadio-3757952.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    @media(min-width: 800px) {
+        text-align: start;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.375);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .container {
+        position: relative;
+        color: #fff;
+
+        h3 {
+            @media(min-width: 800px) {
+                font-size: 50px;
+            }
+        }
+
+        h2 {
+            @media(min-width: 800px) {
+                font-size: 60px;
+            }
+        }
+
+        a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 20px;
+            font-size: 30px;
+
+            @media(max-width: 800px) {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+
+    }
+
+}

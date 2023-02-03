@@ -1,0 +1,73 @@
+.tecnologia-container {
+    margin-top: 5%;
+    padding: 30px;
+
+    @media (min-width: 500px) {
+        padding: 30px 100px;
+    }
+
+    .fila {
+        padding: 0 30px;
+        display: flex;
+        gap: 50px;
+
+        @media (max-width: 900px) {
+            flex-direction: column;
+            padding: 0 10px;
+        }
+
+        .imagen {
+            width: 50%;
+            height: 50vh;
+            margin-bottom: 50px;
+
+            @media (max-width: 900px) {
+                width: 100%;
+                height: 40vh;
+            }
+
+            @media (min-width: 1100px) {
+                height: 60vh;
+            }
+
+            .imagen-zoom {
+                overflow: hidden;
+                height: 100%;
+                box-shadow: 1px 1px 40px #bebebe;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+
+        }
+
+        .texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: start;
+            width: 50%;
+
+            @media (max-width: 900px) {
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 30px;
+            }
+
+            p {
+                margin: 20px 0;
+                font-weight: 400;
+            }
+
+
+
+        }
+    }
+
+}

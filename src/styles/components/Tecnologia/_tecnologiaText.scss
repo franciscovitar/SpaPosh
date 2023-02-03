@@ -1,0 +1,174 @@
+.tecnologia-text-container {
+    margin: 100px 0;
+
+    .texto {
+        margin: 100px auto;
+        width: 90%;
+
+    }
+
+    .grilla {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 20px;
+
+        @media(max-width: 900px) {
+            width: 95%;
+        }
+
+        @media(max-width: 600px) {
+            width: 100%;
+        }
+
+        .grilla-2 {
+            height: 350px;
+            position: relative;
+            width: 24%;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            transition: .2s ease;
+
+            &:hover {
+                box-shadow: 10px 15px 40px 0 rgba(0, 0, 0, 0.182);
+            }
+
+            @media(max-width: 1000px) {
+                width: 48%;
+            }
+
+            @media(max-width: 600px) {
+                width: 90%;
+            }
+
+            h4 {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                text-align: center;
+                padding-top: 300px;
+                font-size: 19px;
+            }
+
+            .overlay {
+                opacity: 0;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+                transition: 1s ease;
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                p {
+                    position: relative;
+                    color: rgb(255, 255, 255);
+                    text-align: center;
+                    padding: 20px;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+
+            .imagen,
+            .imagen-1,
+            .imagen-2,
+            .imagen-3,
+            .imagen-4,
+            .imagen-5,
+            .imagen-6,
+            .imagen-7,
+            .imagen-8,
+            .imagen-9,
+            .imagen-10,
+            .imagen-11 {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border-radius: 20px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background-color: hsla(0, 0%, 0%, 0.448);
+                    top: 0;
+                    bottom: 0;
+                    border-radius: 20px;
+                    left: 0;
+                    right: 0;
+                }
+            }
+
+            .imagen {
+                background-image: url("../../../image/1.webp");
+            }
+
+            .imagen-1 {
+                background-image: url("../../../image/vela-shape.webp");
+
+            }
+
+            .imagen-2 {
+                background-image: url("../../../image/3.webp");
+            }
+
+            .imagen-3 {
+                background-image: url("../../../image/4.webp");
+            }
+
+            .imagen-4 {
+                background-image: url("../../../image/5.webp");
+
+            }
+
+            .imagen-5 {
+                background-image: url("../../../image/6.webp");
+
+            }
+
+            .imagen-6 {
+                background-image: url("../../../image/7.webp");
+
+            }
+
+            .imagen-7 {
+                background-image: url("../../../image/8.webp");
+            }
+
+            .imagen-8 {
+
+                background-image: url("../../../image/9.webp");
+
+            }
+
+            .imagen-9 {
+                background-image: url("../../../image/10.webp");
+
+            }
+
+            .imagen-10 {
+
+                background-image: url("../../../image/11.webp");
+
+            }
+
+            .imagen-11 {
+
+                background-image: url("../../../image/12.webp");
+
+            }
+        }
+    }
+
+
+
+}

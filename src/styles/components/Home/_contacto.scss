@@ -1,0 +1,92 @@
+.contacto-container {
+    background-image: url("../../../image/pexels-andrea-piacquadio-3757942.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 50px 0;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.534);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .container {
+        max-width: 700px;
+
+        .titulos {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+
+            h2 {
+                color: #fff;
+            }
+
+        }
+
+        .formulario {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+
+
+            input,
+            textarea {
+                margin-top: 20px;
+                background: rgba(255, 255, 255, 0.724);
+                padding: 12px 20px;
+                text-decoration: none;
+                border: none;
+                transition: 0.7s;
+                outline: none;
+                border-radius: 10px;
+
+                &:hover {
+                    background: rgb(255, 255, 255);
+                }
+
+                &::placeholder {
+                    color: rgb(54, 54, 54);
+                    font-weight: 600;
+                }
+            }
+
+            .error {
+                color: rgb(255, 0, 0);
+                font-weight: 600;
+                margin-top: 5px;
+                font-size: 14px;
+            }
+
+            textarea {
+                height: 200px;
+            }
+
+            button {
+                background-color: $Orange;
+                border: none;
+                margin: 20px auto;
+                border-radius: 10px;
+                width: 50%;
+                padding: 10px;
+                color: #fff;
+                font-weight: 700;
+            }
+
+            .exito {
+                font-weight: 600;
+                color: rgb(15, 208, 15);
+                margin: auto;
+            }
+        }
+    }
+
+}

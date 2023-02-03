@@ -1,0 +1,42 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.body {
+    background-color: #F8F9FA
+}
+
+span {
+    font-weight: 700;
+}
+
+.continuar {
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    color: $Orange;
+
+    &:hover {
+        color: $Orange;
+        text-decoration: none;
+    }
+}
+
+.line {
+    background-color: $Orange;
+    height: 3px;
+    width: 70px;
+    margin: 27px 0 20px 0;
+}
+
+.green-line {
+    display: inline-block;
+    background-color: $Verde;
+    height: 3px;
+    width: 15px;
+    position: absolute;
+    left: -30px;
+    top: 12px;
+}

@@ -1,0 +1,32 @@
+.tecnologia-wlc-container {
+    background-image: url("../../../image/tecnologia-wlc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.375);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    h1 {
+        position: relative;
+        color: #fff;
+        margin-top: 300px;
+        font-size: 40px;
+
+        @media(min-width: 800px) {
+            font-size: 70px;
+        }
+    }
+}

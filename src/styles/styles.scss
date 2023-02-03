@@ -1,0 +1,32 @@
+//Settings 
+@import "./base/settings";
+
+//Screen
+@import "./screen/screen";
+
+//Components
+@import "./components/Home/navBar";
+@import "./components/Home/homewelcome";
+@import "./components/Home/nosotros";
+@import "./components/Home/tratamientos";
+@import "./components/Home/relax";
+@import "./components/Home/tecnologia";
+@import "./components/Home/electrofitness";
+@import "./components/Home/contacto";
+
+@import "./components/Nosotros/nosotrosWelcome";
+@import "./components/Nosotros/nosDiagComp";
+
+@import "./components/Tratamientos/tratamientosWlc";
+@import "./components/Tratamientos/tratamientosTexto";
+@import "./components/Tratamientos/tratamientosMasc";
+
+@import "./components/SpaRelax/spaRelaxWlc";
+@import "./components/SpaRelax/spaRelaxTexto";
+@import "./components/SpaRelax/spaRelaxCarousel";
+
+@import "./components/Tecnologia/tecnologiaWlc";
+@import "./components/Tecnologia/tecnologiaText";
+
+@import "./components/ElectroFitness/electroFitnessWlc";
+@import "./components/ElectroFitness/electroFitnessTexto";
