@@ -12,6 +12,9 @@ function TecnologiaWlc() {
         >
           Tecnología
         </motion.h1>
+        <a className="icono" href="#electrofitness">
+          <i class="bi bi-arrow-down"></i>
+        </a>
       </div>
     </div>
   );

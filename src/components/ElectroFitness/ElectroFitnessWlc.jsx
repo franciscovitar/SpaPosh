@@ -12,6 +12,9 @@ function ElectroFitnessWlc() {
         >
           ElectroFitness
         </motion.h1>
+        <a href="#electro">
+          <i class="bi bi-arrow-down"></i>
+        </a>
       </div>
     </div>
   );

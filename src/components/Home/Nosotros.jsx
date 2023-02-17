@@ -4,7 +4,7 @@ import Buda from "../../image/pexels-breakingpic-3188.jpg";
 
 function Nosotros() {
   return (
-    <div className="nosotros-container container-fluid">
+    <div id="nosotros" className="nosotros-container container-fluid">
       <div className="fila">
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}

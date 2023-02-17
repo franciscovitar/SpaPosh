@@ -14,7 +14,7 @@ function HomeWelcome() {
             transition: { duration: 0.5, delay: 0 },
           }}
         >
-          Promocemos el bienestar y la salud
+          Promovemos el bienestar y la salud
         </motion.h3>
         <motion.h2
           viewport={{ once: true }}

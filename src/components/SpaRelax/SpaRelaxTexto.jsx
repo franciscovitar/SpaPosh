@@ -4,7 +4,7 @@ import Carousel from "./SpaRelaxCarousel";
 
 function SpaRelaxTexto() {
   return (
-    <div className="spa-relax-texto-container ">
+    <div id="sparelax" className="spa-relax-texto-container ">
       <div className="fila">
         <div className="left">
           <div className="left-text ">

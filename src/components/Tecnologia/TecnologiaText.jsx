@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function TecnologiaText() {
   return (
-    <div className="tecnologia-text-container">
+    <div id="electrofitness" className="tecnologia-text-container">
       {/* TEXTO */}
       <div className="texto">
         <motion.h3

@@ -5,7 +5,7 @@ import ElectroFitness2 from "../../image/electrofitness2.jpg";
 
 export default function ElectroFitnessTexto() {
   return (
-    <div className="electro-fitness-texto ">
+    <div className="electro-fitness-texto " id="electro">
       {/* GRILLA */}
 
       <div className="grilla">

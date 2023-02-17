@@ -8,7 +8,7 @@ import depdef from "../../image/dep-def.jpg";
 
 function TratamientosTexto() {
   return (
-    <div className="tratamientostexto-container">
+    <div id="tratamientos" className="tratamientostexto-container">
       <div className="tratamientos-cuerpo container">
         <motion.h2
           viewport={{ once: true }}
