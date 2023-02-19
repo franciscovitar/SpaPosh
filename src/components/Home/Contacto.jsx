@@ -63,7 +63,7 @@ function Contacto() {
             return errores;
           }}
           onSubmit={async (valores, { resetForm }) => {
-            const url = "http://localhost:3149/mail";
+            const url = "https://spacenter.website/mail";
             const data = {
               nombre: valores.nombre,
               telefono: valores.telefono,
