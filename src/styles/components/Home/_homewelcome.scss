@@ -9,8 +9,10 @@
     align-items: center;
     text-align: center;
 
-    @media(min-width: 800px) {
-        text-align: start;
+
+
+    @media(max-height: 500px) {
+        height: 500px;
     }
 
     &::before {
@@ -29,13 +31,13 @@
 
         h3 {
             @media(min-width: 800px) {
-                font-size: 50px;
+                font-size: 40px;
             }
         }
 
         h2 {
             @media(min-width: 800px) {
-                font-size: 60px;
+                font-size: 50px;
             }
         }
 
@@ -44,8 +46,11 @@
             color: #fff;
             text-decoration: none;
             margin-top: 20px;
-
             font-size: 30px;
+
+            &:hover {
+                border-bottom: 1px solid $Orange;
+            }
 
             @media(max-width: 800px) {
                 font-size: 20px;

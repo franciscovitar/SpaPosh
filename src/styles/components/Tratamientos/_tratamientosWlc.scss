@@ -13,8 +13,9 @@
         text-align: start;
     }
 
-    @media(max-width: 200px) {
-        width: 100%;
+
+    @media(max-height: 500px) {
+        height: 500px;
     }
 
     &::before {
@@ -29,7 +30,6 @@
 
     div {
         position: relative;
-        margin-top: 300px;
         text-align: center;
 
         h1 {

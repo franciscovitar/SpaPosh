@@ -12,9 +12,6 @@ function NosotrosWelcome() {
         >
           Nosotros
         </motion.h1>
-        <a className="icono" href="#nosotros">
-          <i class="bi bi-arrow-down"></i>
-        </a>
       </div>
     </div>
   );

@@ -16,9 +16,6 @@ function TratamientosWlc() {
         >
           Tratamientos
         </motion.h1>
-        <a className="icono" href="#tratamientos">
-          <i class="bi bi-arrow-down"></i>
-        </a>
       </div>
     </div>
   );

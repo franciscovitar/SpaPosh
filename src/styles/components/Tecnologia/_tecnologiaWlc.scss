@@ -9,6 +9,10 @@
     align-items: center;
     text-align: center;
 
+    @media(max-height: 500px) {
+        height: 500px;
+    }
+
     &::before {
         content: "";
         position: absolute;
@@ -22,9 +26,7 @@
     h1 {
         position: relative;
         color: #fff;
-        margin-top: 300px;
         font-size: 70px;
-        margin-bottom: 100px;
 
         @media(max-width: 900px) {
             font-size: 40px;

@@ -12,9 +12,6 @@ function SpaRelaxWlc() {
         >
           Spa Relax
         </motion.h1>
-        <a className="icono" href="#sparelax">
-          <i class="bi bi-arrow-down"></i>
-        </a>
       </div>
     </div>
   );
