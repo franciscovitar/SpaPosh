@@ -12,15 +12,6 @@ function ElectroFitnessWlc() {
         >
           ElectroFitness
         </motion.h1>
-        <motion.i
-          viewport={{ once: true }}
-          initial={{ opacity: 0 }}
-          whileInView={{
-            opacity: 1,
-            transition: { duration: 0.5 },
-          }}
-          class="bi bi-arrow-down-short"
-        ></motion.i>
       </div>
     </div>
   );
